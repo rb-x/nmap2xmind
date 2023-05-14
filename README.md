@@ -47,10 +47,11 @@ EXEC_MODE="docker" # local or docker
 ```bash
 cd nmap2xmind
 npm install
-
-# add it to you PATH 
-ln -sv $PWD/nmap2xmind.js /usr/local/bin/nmap2xmind
 node nmap2xmind.js <nmap-result.xml>
+
+# or add it to you PATH 
+ln -sv $PWD/nmap2xmind.js /usr/local/bin/nmap2xmind
+nmap2xmind <nmap-result.xml>
 ```
 
 ```bash
