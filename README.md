@@ -49,7 +49,7 @@ cd nmap2xmind
 npm install
 
 # add it to you PATH 
-ln -sv $PWD/nmap2xmind.js /user/local/bin/nmap2xmind
+ln -sv $PWD/nmap2xmind.js /usr/local/bin/nmap2xmind
 node nmap2xmind.js <nmap-result.xml>
 ```
 
